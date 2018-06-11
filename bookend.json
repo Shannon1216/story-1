@@ -9,12 +9,12 @@
       {
         "title": "Learn more about XXX",
         "url": "https://en.wikipedia.org/wiki/Pet_adoption",
-        "image": "assets/related-1.jpg"
+        "image": "assets/related-1.png"
       },
       {
         "title": "Read this article",
         "url": "https://en.wikipedia.org/wiki/Cat",
-        "image": "assets/related-2.jpg"
+        "image": "assets/related-2.png"
       }
     ]
   }
