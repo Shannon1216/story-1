@@ -7,14 +7,14 @@
   "related-articles": {
     "Articles": [
       {
-        "title": "Pet adoption",
+        "title": "Learn more about XXX",
         "url": "https://en.wikipedia.org/wiki/Pet_adoption",
-        "image": "assets/related-dogs.jpg"
+        "image": "assets/related-1.jpg"
       },
       {
-        "title": "Learn about cats",
+        "title": "Read this article",
         "url": "https://en.wikipedia.org/wiki/Cat",
-        "image": "assets/related-cats.jpg"
+        "image": "assets/related-2.jpg"
       }
     ]
   }
