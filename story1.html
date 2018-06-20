@@ -10,8 +10,9 @@
     <script async custom-element="amp-video"
         src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     <script async custom-element="amp-story"
-        src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
-   
+        src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    
     <style amp-custom>
       amp-story {
         font-family: 'Georgia',serif;
@@ -84,20 +85,22 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Slide 2 : 1 layer (vertical) -->
+      <!-- Slide 2 : Page 1 -->
       <amp-story-page id="page1">
+         <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="assets/cover_fallback.jpg"
+                layout="responsive">
+              <source src="assets/workingOverdesk_video.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        
         <amp-story-grid-layer template="vertical">
           <h2>Staying true to XXX’s strategic brand, marketing and sales objectives…</h2>
-          <amp-img src="assets/redpattern_bkgd.png"
-              width="720" height="400"
-              layout="responsive">
-          </amp-img>
-          <amp-img src="assets/redpattern_bkgd.png"
-              width="720" height="400"
-              layout="responsive">
-          </amp-img>
           <q>We break the mold. Turn user experience on end. And tell stories in new ways.</q>
         </amp-story-grid-layer>
+        
       </amp-story-page>
 
       <!-- Slide 3 : 2 layers (fill + thirds) -->
